@@ -6,14 +6,19 @@
     
     <string name="task_name">任务管理平台</string>
     <string name="task_login">登陆</string>
+    <string name="task_login1">登录</string>
     <string name="task_register">注册</string>
+    <string name="down">↓</string>
+    <string name="shouye">首页</string>
     
     <string name="uname"> &lt;User&gt;</string>
     <string name="upassword"> &lt;Password&gt;</string>
     <string name="hello_world">Hello world!</string>
     
+   	<string name="textsize_20dp">20dp</string>
+   	<color name="red">#B91D47</color>
 	<color name="blue_background">#007DFF</color>
 	<color name="black_background">#000000</color>
 	<color name="white">#FFFFFF</color>
-
+	
 </resources>
