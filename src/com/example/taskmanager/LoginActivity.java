@@ -27,7 +27,7 @@ public class LoginActivity extends Activity {
 			
 			@Override
 			public void onClick(View v) {
-				Intent intent = new Intent(LoginActivity.this,Show.class);
+				Intent intent = new Intent(LoginActivity.this,Main.class);
 				intent.putExtra("name", editName.getText().toString());
 				intent.putExtra("password", editPwd.getText().toString());
 				startActivity(intent);

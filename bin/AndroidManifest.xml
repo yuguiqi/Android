@@ -23,7 +23,23 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.taskmanager.Show">
+            android:name="com.example.taskmanager.Main">
+           
+        </activity>
+         <activity
+            android:name="com.example.taskmanager.Doing">
+           
+        </activity>
+         <activity
+            android:name="com.example.taskmanager.Undo">
+           
+        </activity>
+         <activity
+            android:name="com.example.taskmanager.Lock">
+           
+        </activity>
+         <activity
+            android:name="com.example.taskmanager.Finished">
            
         </activity>
     </application>
