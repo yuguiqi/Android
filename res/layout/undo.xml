@@ -7,6 +7,10 @@
     <TextView 
        style="@style/title_bar"
         android:text="@string/undo"/>
+  	<include 
+  	    android:layout_width="match_parent"
+  	    android:layout_height="wrap_content"
+  	    layout="@layout/scroll"/>
     <ListView
         android:id="@+id/undo_listView"
         android:layout_width="match_parent"
