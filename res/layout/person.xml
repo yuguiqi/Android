@@ -7,7 +7,7 @@
 
     <TextView
         style="@style/title_bar"
-        android:text="@string/undo" />
+        android:text="@string/person" />
 
     <ListView
         android:id="@+id/finished_listView"

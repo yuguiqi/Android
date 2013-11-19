@@ -7,7 +7,7 @@
 
     <TextView
         style="@style/title_bar"
-        android:text="@string/lock" />
+        android:text="@string/operate" />
 
     <ListView
         android:id="@+id/lock_listView"

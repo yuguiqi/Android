@@ -7,16 +7,27 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical" >
-         <TextView 
-	           android:text="垂直滚动图片"
-	           android:layout_width="match_parent"
-	           android:layout_height="wrap_content"
-	           android:textSize="60dp"
-	           />
-	       <EditText android:layout_width="match_parent"
-	           android:layout_height="wrap_content"
-	           android:textSize="30dp"/>
+           
+	       
 	       <ImageView android:src="@drawable/ic_launcher"
+	           android:layout_width="match_parent"
+	           android:layout_height="100dp"/>
+	         <ImageView android:src="@drawable/ic_launcher"
+	           android:layout_width="match_parent"
+	           android:layout_height="100dp"/>
+	           <ImageView android:src="@drawable/ic_launcher"
+	           android:layout_width="match_parent"
+	           android:layout_height="100dp"/>
+	             <ImageView android:src="@drawable/ic_launcher"
+	           android:layout_width="match_parent"
+	           android:layout_height="100dp"/>
+	               <ImageView android:src="@drawable/ic_launcher"
+	           android:layout_width="match_parent"
+	           android:layout_height="100dp"/>
+	                 <ImageView android:src="@drawable/ic_launcher"
+	           android:layout_width="match_parent"
+	           android:layout_height="100dp"/>
+	                   <ImageView android:src="@drawable/ic_launcher"
 	           android:layout_width="match_parent"
 	           android:layout_height="100dp"/>
 	       <ImageView android:src="@drawable/ic_launcher"

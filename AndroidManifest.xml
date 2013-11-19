@@ -23,13 +23,13 @@
         </activity>
         <activity android:name="com.example.taskmanager.Main" >
         </activity>
-        <activity android:name="com.example.taskmanager.Doing" >
+        <activity android:name="com.example.taskmanager.List" >
         </activity>
-        <activity android:name="com.example.taskmanager.Undo" >
+        <activity android:name="com.example.taskmanager.Home" >
         </activity>
-        <activity android:name="com.example.taskmanager.Lock" >
+        <activity android:name="com.example.taskmanager.Operate" >
         </activity>
-        <activity android:name="com.example.taskmanager.Finished" >
+        <activity android:name="com.example.taskmanager.Person" >
         </activity>
     </application>
 
