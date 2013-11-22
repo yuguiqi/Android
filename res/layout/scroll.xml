@@ -1,42 +1,133 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="wrap_content" >
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="122dp"
+        android:background="@color/white"
         android:orientation="vertical" >
-           
-	       
-	       <ImageView android:src="@drawable/ic_launcher"
-	           android:layout_width="match_parent"
-	           android:layout_height="100dp"/>
-	         <ImageView android:src="@drawable/ic_launcher"
-	           android:layout_width="match_parent"
-	           android:layout_height="100dp"/>
-	           <ImageView android:src="@drawable/ic_launcher"
-	           android:layout_width="match_parent"
-	           android:layout_height="100dp"/>
-	             <ImageView android:src="@drawable/ic_launcher"
-	           android:layout_width="match_parent"
-	           android:layout_height="100dp"/>
-	               <ImageView android:src="@drawable/ic_launcher"
-	           android:layout_width="match_parent"
-	           android:layout_height="100dp"/>
-	                 <ImageView android:src="@drawable/ic_launcher"
-	           android:layout_width="match_parent"
-	           android:layout_height="100dp"/>
-	                   <ImageView android:src="@drawable/ic_launcher"
-	           android:layout_width="match_parent"
-	           android:layout_height="100dp"/>
-	       <ImageView android:src="@drawable/ic_launcher"
-	           android:layout_width="match_parent"
-	           android:layout_height="100dp"/>
-	       <ImageView android:src="@drawable/ic_launcher"
-	           android:layout_width="match_parent"
-	           android:layout_height="100dp"/>
+
+        <TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dip"
+            android:background="@color/white"
+            android:stretchColumns="*"
+            tools:ignore="MissingPrefix" >
+			<TableRow >
+			    <TextView 
+                    android:layout_gravity="center"
+                    android:layout_margin="3dip"                    
+                    android:text="经纬度"
+                    android:textStyle="bold"
+                    />
+                <TextView 
+                    android:layout_gravity="center"
+                    android:layout_margin="3dip"                    
+                    android:text="操作"
+                    android:textStyle="bold"
+                    />
+                <TextView 
+                    android:layout_gravity="center"
+                    android:layout_margin="3dip"                    
+                    android:text="速度"
+                    android:textStyle="bold"
+                    />
+			</TableRow>
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" 
+                android:layout_margin="10dip">
+                
+                 
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="任务名称："
+                    />
+                
+                 <TextView 
+                    android:id="@+id/taskName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="任务一"
+                    />
+            </TableRow>
+            
+             <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="任务描述："
+                    />
+                
+                 <TextView 
+                    android:id="@+id/taskDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="first"
+                    />
+            </TableRow>
+            
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="任务进度："
+                    />
+                
+            </TableRow>
+            
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                
+                <ProgressBar style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_marginLeft="5dip"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:max="1000"
+                    android:progress="500"
+                    android:secondaryProgress="300"
+                    android:id="@+id/taskProgress"
+                    />
+
+            </TableRow>
+            
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="发起人："
+                    />
+                
+                 <TextView 
+                    android:id="@+id/taskMaker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="郭婷超"
+                    />
+            </TableRow>
+        </TableLayout>
+         
     </LinearLayout>
-    
 
 </ScrollView>

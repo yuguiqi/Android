@@ -6,8 +6,15 @@
     android:orientation="vertical" >
 
     <TextView
+        android:id="@+id/title_person"
         style="@style/title_bar"
         android:text="@string/person" />
+    
+    <TextView
+        android:layout_below="@id/title_person"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"/>
 
     <ListView
         android:id="@+id/finished_listView"

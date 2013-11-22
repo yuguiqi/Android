@@ -22,6 +22,8 @@ public class Main extends TabActivity {
 	        		WindowManager.LayoutParams.FLAG_FULLSCREEN);
 	     setContentView(R.layout.main);
 	     
+	     Constant.setUSERNAME(getIntent().getStringExtra("username").toString());     
+	    
 	     Resources res = getResources(); 
 	     TabHost tabHost = getTabHost(); 
          TabHost.TabSpec spec; 
@@ -44,8 +46,15 @@ public class Main extends TabActivity {
          tabHost.addTab(spec);
          
          tabHost.setBackgroundColor(res.getColor(R.color.blue_background));
-         
-         
-         
+                
 	}
+	
 }
+
+
+
+
+
+
+
+

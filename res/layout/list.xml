@@ -4,27 +4,10 @@
     android:layout_height="match_parent"
     android:background="@color/white"
     android:orientation="vertical" >
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/blue_background" >
-
-        <TextView
-            style="@style/title_bar"
-            android:layout_centerInParent="true"
-            android:text="@string/list" />
-
-        <SlidingDrawer
-            android:id="@+id/doing_sd"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:layout_marginRight="10dp" >
-        </SlidingDrawer>
-    </RelativeLayout>
-
+	 <TextView 
+       style="@style/title_bar"
+        android:text="@string/list"/>
+	 
     <ListView
         android:id="@+id/doing_listView"
         android:layout_width="match_parent"
