@@ -1,4 +1,10 @@
-package com.example.taskmanager;
+package com.example.taskmanager.ui;
+
+import com.example.taskmanager.Constant;
+import com.example.taskmanager.R;
+import com.example.taskmanager.R.color;
+import com.example.taskmanager.R.drawable;
+import com.example.taskmanager.R.layout;
 
 import android.app.TabActivity;
 import android.content.Intent;
@@ -11,7 +17,6 @@ import android.widget.TabHost;
 import android.widget.TextView;
 
 public class Main extends TabActivity {
-	private TextView textView;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 	
@@ -27,10 +32,10 @@ public class Main extends TabActivity {
 	     Resources res = getResources(); 
 	     TabHost tabHost = getTabHost(); 
          TabHost.TabSpec spec; 
+         
          Intent intent;  
          intent = new Intent().setClass(this, Home.class);
-         spec = tabHost.newTabSpec("首页").setIndicator("首页",res.getDrawable(R.drawable.home)).setContent(intent);
-         
+         spec = tabHost.newTabSpec("首页").setIndicator("首页",res.getDrawable(R.drawable.home)).setContent(intent);         
          tabHost.addTab(spec);
          
          intent = new Intent().setClass(this, List.class);
