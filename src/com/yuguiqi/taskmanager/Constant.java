@@ -1,4 +1,4 @@
-package com.example.taskmanager;
+package com.yuguiqi.taskmanager;
 
 public class Constant {
 	public static String USERNAME="";

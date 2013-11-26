@@ -1,4 +1,4 @@
-package com.example.taskmanager.ui;
+package com.yuguiqi.taskmanager.ui;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -14,7 +14,8 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import com.example.taskmanager.R;
-import com.example.taskmanager.util.JSONUtil;
+import com.yuguiqi.taskmanager.util.DialogUtil;
+import com.yuguiqi.taskmanager.util.JSONUtil;
 
 public class LoginActivity extends Activity {
 	
@@ -50,9 +51,7 @@ public class LoginActivity extends Activity {
 					}else{
 						showDialog("用户密码错误！");
 					}
-					
 				}
-				
 			}
 		});
 	}
@@ -107,15 +106,7 @@ public class LoginActivity extends Activity {
 
 	//显示对话框	
 	private void showDialog(String msg){
-		AlertDialog.Builder builder = new AlertDialog.Builder(this);
-		
-		builder.setMessage(msg)
-			   .setCancelable(false)
-			   .setPositiveButton("确定", new DialogInterface.OnClickListener() {		
-						public void onClick(DialogInterface dialog, int which) {}
-					});
-		AlertDialog dialog  = builder.create();
-		dialog.show();
+		DialogUtil.mpDialog(this, msg, "确定").show();
 	}
 	
 	

@@ -1,10 +1,10 @@
-package com.example.taskmanager.ui;
+package com.yuguiqi.taskmanager.ui;
 
-import com.example.taskmanager.Constant;
 import com.example.taskmanager.R;
 import com.example.taskmanager.R.color;
 import com.example.taskmanager.R.drawable;
 import com.example.taskmanager.R.layout;
+import com.yuguiqi.taskmanager.Constant;
 
 import android.app.TabActivity;
 import android.content.Intent;
