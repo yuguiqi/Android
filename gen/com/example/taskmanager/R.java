@@ -36,17 +36,17 @@ public final class R {
     public static final class id {
         public static final int doing_listView=0x7f090006;
         public static final int finished_listView=0x7f090009;
+        public static final int list=0x7f090005;
+        public static final int listLayout=0x7f09000a;
         public static final int lock_listView=0x7f090007;
         public static final int login=0x7f090002;
         public static final int password=0x7f090001;
+        public static final int progressBar1=0x7f09000d;
         public static final int register=0x7f090003;
-        public static final int taskInfo=0x7f09000b;
-        public static final int taskMaker=0x7f09000c;
-        public static final int taskName=0x7f09000a;
-        public static final int taskPercent=0x7f09000d;
+        public static final int tableRow1=0x7f09000b;
+        public static final int tableRow2=0x7f09000c;
         public static final int title=0x7f090004;
         public static final int title_person=0x7f090008;
-        public static final int undo_listView=0x7f090005;
         public static final int username=0x7f090000;
     }
     public static final class layout {

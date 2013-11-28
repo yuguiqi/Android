@@ -1,12 +1,10 @@
 package com.yuguiqi.taskmanager.ui;
 
 
-import com.example.taskmanager.R;
-import com.example.taskmanager.R.layout;
-
 import android.app.Activity;
 import android.os.Bundle;
-import android.widget.SlidingDrawer;
+
+import com.example.taskmanager.R;
 
 public class List extends Activity {
 	

@@ -15,7 +15,7 @@
   	    layout="@layout/scroll"/>
    
   	<ListView
-        android:id="@+id/undo_listView"
+        android:id="@+id/list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
     </ListView>
