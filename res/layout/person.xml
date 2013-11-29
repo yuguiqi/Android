@@ -17,7 +17,7 @@
         android:id="@+id/username"/>
 
     <ListView
-        android:id="@+id/finished_listView"
+        android:id="@+id/person_listView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
     </ListView>

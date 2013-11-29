@@ -34,29 +34,36 @@ public final class R {
         public static final int person=0x7f020004;
     }
     public static final class id {
-        public static final int doing_listView=0x7f090006;
-        public static final int finished_listView=0x7f090009;
-        public static final int list=0x7f090005;
-        public static final int listLayout=0x7f09000a;
-        public static final int lock_listView=0x7f090007;
+        public static final int doing_listView=0x7f090004;
+        public static final int finish_listView=0x7f090005;
+        public static final int home_listView=0x7f090007;
+        public static final int listLayout=0x7f09000c;
+        public static final int lock_listView=0x7f090008;
         public static final int login=0x7f090002;
+        public static final int operate_listView=0x7f090009;
         public static final int password=0x7f090001;
-        public static final int progressBar1=0x7f09000d;
+        public static final int person_listView=0x7f09000b;
+        public static final int progressBar1=0x7f09000f;
         public static final int register=0x7f090003;
-        public static final int tableRow1=0x7f09000b;
-        public static final int tableRow2=0x7f09000c;
-        public static final int title=0x7f090004;
-        public static final int title_person=0x7f090008;
+        public static final int tableRow1=0x7f09000d;
+        public static final int tableRow2=0x7f09000e;
+        public static final int title=0x7f090006;
+        public static final int title_person=0x7f09000a;
+        public static final int undo_listView=0x7f090010;
         public static final int username=0x7f090000;
     }
     public static final class layout {
         public static final int activity_login=0x7f030000;
-        public static final int home=0x7f030001;
-        public static final int list=0x7f030002;
-        public static final int main=0x7f030003;
-        public static final int operate=0x7f030004;
-        public static final int person=0x7f030005;
-        public static final int scroll=0x7f030006;
+        public static final int doing=0x7f030001;
+        public static final int finish=0x7f030002;
+        public static final int home=0x7f030003;
+        public static final int list=0x7f030004;
+        public static final int lock=0x7f030005;
+        public static final int main=0x7f030006;
+        public static final int operate=0x7f030007;
+        public static final int person=0x7f030008;
+        public static final int scroll=0x7f030009;
+        public static final int undo=0x7f03000a;
     }
     public static final class menu {
         public static final int main=0x7f080000;
@@ -95,6 +102,7 @@ public final class R {
  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f070001;
+        public static final int horizontal_progressbar=0x7f070004;
         public static final int styleName=0x7f070002;
         public static final int title_bar=0x7f070003;
     }

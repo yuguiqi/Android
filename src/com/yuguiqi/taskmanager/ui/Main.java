@@ -1,20 +1,15 @@
 package com.yuguiqi.taskmanager.ui;
 
-import com.example.taskmanager.R;
-import com.example.taskmanager.R.color;
-import com.example.taskmanager.R.drawable;
-import com.example.taskmanager.R.layout;
-import com.yuguiqi.taskmanager.Constant;
-
 import android.app.TabActivity;
 import android.content.Intent;
 import android.content.res.Resources;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.TabHost;
-import android.widget.TextView;
+
+import com.example.taskmanager.R;
+import com.yuguiqi.taskmanager.Constant;
 
 public class Main extends TabActivity {
 	@Override
@@ -50,7 +45,7 @@ public class Main extends TabActivity {
          spec = tabHost.newTabSpec("个人中心").setIndicator("个人中心",res.getDrawable(R.drawable.person)).setContent(intent);
          tabHost.addTab(spec);
          
-         tabHost.setBackgroundColor(res.getColor(R.color.blue_background));
+         tabHost.setBackgroundResource(R.color.blue_background);
                 
 	}
 	

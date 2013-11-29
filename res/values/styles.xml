@@ -31,5 +31,14 @@
         <item name="android:textStyle">bold</item>
         <item name="android:background">@color/blue_background</item>
     </style>
+    
+    <style name="horizontal_progressbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">15dp</item>
+        <item name="android:layout_weight">9</item>
+        <item name="android:max">100</item>
+        <item name="android:progressDrawable">@android:drawable/progress_horizontal</item>
+        <item name="android:indeterminateOnly">false</item>
+    </style>
 
 </resources>

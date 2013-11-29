@@ -46,12 +46,8 @@
                     android:text="任务进度："
                     android:textColor="@color/black_background"/>
                 <ProgressBar
-                    android:layout_weight="9"
                     android:id="@+id/progressBar1"
-                    style="?android:attr/progressBarStyleHorizontal"
-                    android:layout_width="5dip"
-                    android:layout_height="wrap_content" 
-                    android:max="100"
+                    style="@style/horizontal_progressbar"
                     android:progress="20"/>
             </TableRow>
 

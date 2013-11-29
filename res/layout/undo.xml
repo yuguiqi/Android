@@ -4,13 +4,8 @@
     android:layout_height="match_parent"
     android:background="@color/white"
     android:orientation="vertical" >
-
-    <TextView
-        style="@style/title_bar"
-        android:text="@string/operate" />
-
     <ListView
-        android:id="@+id/operate_listView"
+        android:id="@+id/undo_listView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
     </ListView>
